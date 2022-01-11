@@ -1,3 +1,29 @@
 body {
-  background: pink;
+  background: black;
+  color: #fff;
 }
+.nav-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: center;
+  align-content: center;
+}
+.banner {
+  display: grid;
+  grid-template-columns: 2 50fr;
+}
+.btn {
+  background: orangered;
+  border: 0;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+}
+/*.image {
+  min-width: 500px;
+  overflow: ;
+}*/
