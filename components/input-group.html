@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/input-group.css">
+   
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
     <title>Input</title>
 </head>
 <body>
@@ -13,12 +17,13 @@
         <input type="text" class="input" placeholder="Enter domain name here..."/>
         <div class="search-section">
 
-            <span>
-                <svg class="icon">
+            <span class="icon-container">
+                <svg class="icon search-icon">
                     <use xlink: href="/images/sprite.svg#search"></use>
                 </svg>
             </span> 
-            <button class="btn btn--accent">search</button>
+            
+            <button class="btn search--btn btn--accent">search</button>
             
         </div>
     </div>
