@@ -342,7 +342,7 @@ a {
   background: var(--clr-btn);
 }
 .plan:hover {
-  transition: scale(0.2s) ease-out;
+  transition: transform 0.2s ease-out;
 }
 .card {
   border-radius: 7px;
@@ -841,3 +841,5 @@ a {
     margin-top: 6rem;
   }
 }
+
+/*Showcase-block*/
