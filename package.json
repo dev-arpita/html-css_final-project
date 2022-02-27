@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/dev-arpita/html-css_final-project/issues"
   },
-  "homepage": "https://github.com/dev-arpita/html-css_final-project#readme"
+  "homepage": "https://github.com/dev-arpita/html-css_final-project#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
+  }
 }
